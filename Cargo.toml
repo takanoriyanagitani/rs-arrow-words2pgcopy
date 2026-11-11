@@ -3,7 +3,16 @@ name = "rs-arrow-words2pgcopy"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the 2-bytes items in the array to pgcopy bytes."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-arrow-words2pgcopy"
+homepage = "https://github.com/takanoriyanagitani/rs-arrow-words2pgcopy"
+documentation = "https://docs.rs/rs-arrow-words2pgcopy/latest"
+keywords = ["arrow", "postgresql", "convert", "binary", "word"]
+
 exclude = [
+  "arrow-array-log2pgcopy.wasm",
+  "package-lock.json",
 ]
 
 [lints.rust]
